@@ -1,0 +1,48 @@
+[11-Jul-2023 11:43:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/unicoit/managerrms.unicoit.com/config.php:8
+Stack trace:
+#0 /home/unicoit/managerrms.unicoit.com/config.php(8): mysqli_connect()
+#1 /home/unicoit/managerrms.unicoit.com/header.php(1): include('/home/unicoit/m...')
+#2 /home/unicoit/managerrms.unicoit.com/index.php(2): include('/home/unicoit/m...')
+#3 {main}
+  thrown in /home/unicoit/managerrms.unicoit.com/config.php on line 8
+[12-Jul-2023 10:42:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'restaurent_name' doesn't have a default value in /home/unicoit/managerrms.unicoit.com/employee_store.php:35
+Stack trace:
+#0 /home/unicoit/managerrms.unicoit.com/employee_store.php(35): mysqli_query()
+#1 {main}
+  thrown in /home/unicoit/managerrms.unicoit.com/employee_store.php on line 35
+[12-Jul-2023 11:13:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'Take Away' for column `unicoit_rms`.`orders`.`table_no` at row 1 in /home/unicoit/managerrms.unicoit.com/place_order.php:22
+Stack trace:
+#0 /home/unicoit/managerrms.unicoit.com/place_order.php(22): mysqli_query()
+#1 {main}
+  thrown in /home/unicoit/managerrms.unicoit.com/place_order.php on line 22
+[12-Jul-2023 11:14:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'Take Away' for column `unicoit_rms`.`orders`.`table_no` at row 1 in /home/unicoit/managerrms.unicoit.com/place_order.php:22
+Stack trace:
+#0 /home/unicoit/managerrms.unicoit.com/place_order.php(22): mysqli_query()
+#1 {main}
+  thrown in /home/unicoit/managerrms.unicoit.com/place_order.php on line 22
+[12-Jul-2023 11:14:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'price' doesn't have a default value in /home/unicoit/managerrms.unicoit.com/place_order.php:22
+Stack trace:
+#0 /home/unicoit/managerrms.unicoit.com/place_order.php(22): mysqli_query()
+#1 {main}
+  thrown in /home/unicoit/managerrms.unicoit.com/place_order.php on line 22
+[12-Jul-2023 11:15:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'price' doesn't have a default value in /home/unicoit/managerrms.unicoit.com/place_order.php:22
+Stack trace:
+#0 /home/unicoit/managerrms.unicoit.com/place_order.php(22): mysqli_query()
+#1 {main}
+  thrown in /home/unicoit/managerrms.unicoit.com/place_order.php on line 22
+[12-Jul-2023 11:15:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'price' doesn't have a default value in /home/unicoit/managerrms.unicoit.com/place_order.php:22
+Stack trace:
+#0 /home/unicoit/managerrms.unicoit.com/place_order.php(22): mysqli_query()
+#1 {main}
+  thrown in /home/unicoit/managerrms.unicoit.com/place_order.php on line 22
+[12-Jul-2023 11:15:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'restaurent_name' doesn't have a default value in /home/unicoit/managerrms.unicoit.com/table_no_store.php:9
+Stack trace:
+#0 /home/unicoit/managerrms.unicoit.com/table_no_store.php(9): mysqli_query()
+#1 {main}
+  thrown in /home/unicoit/managerrms.unicoit.com/table_no_store.php on line 9
+[12-Jul-2023 11:23:54 UTC] PHP Warning:  Undefined array key "p_price" in /home/unicoit/managerrms.unicoit.com/order_list.php on line 43
+[12-Jul-2023 11:23:54 UTC] PHP Warning:  Undefined array key "quantiry" in /home/unicoit/managerrms.unicoit.com/order_list.php on line 46
+[12-Jul-2023 11:23:54 UTC] PHP Warning:  Undefined array key "p_price" in /home/unicoit/managerrms.unicoit.com/order_list.php on line 43
+[12-Jul-2023 11:23:54 UTC] PHP Warning:  Undefined array key "quantiry" in /home/unicoit/managerrms.unicoit.com/order_list.php on line 46
+[12-Jul-2023 11:23:54 UTC] PHP Warning:  Undefined array key "p_price" in /home/unicoit/managerrms.unicoit.com/order_list.php on line 43
+[12-Jul-2023 11:23:54 UTC] PHP Warning:  Undefined array key "quantiry" in /home/unicoit/managerrms.unicoit.com/order_list.php on line 46
